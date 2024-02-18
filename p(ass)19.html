@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .but1:active ~ h1 {
+        color: aqua;
+        
+      }
+      .but2:active ~ h1 {
+        color: blue;
+      }
+      .but3:active ~ h1 {
+        color: orange;
+      }
+      .but4:active + h1 {
+        color: blueviolet;
+      }
+      body {
+        
+        margin: auto;
+        border: 2px solid black;
+        padding: 10px;
+        width: 500px;
+        
+        
+      }
+      h1 {
+        display: inline;
+        background-color: cornsilk;
+        border: 1px solid black;
+        width: 250px;
+        margin: 100px;
+      }
+      button{
+        padding: 10px;
+        display: flex;
+        width: 50px;
+        height: 50px;
+      }
+      img{
+        display: none;
+      }
+      .but1:active ~ .img1 {
+        display: block;
+        margin-left: 150px;
+        margin-top: 10px;
+      }
+      .but2:active ~ .img2 {
+        display: block;
+        margin-left: 150px;
+        margin-top: 10px;
+      }
+      .but3:active ~ .img3 {
+        display: block;
+        margin-left: 150px;
+        margin-top: 10px;
+      }
+      .but4:active ~.img4 {
+        display: block;
+        margin-left: 150px;
+        margin-top: 10px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <button class="but1">1</button>
+    <button class="but2">2</button>
+    <button class="but3">3</button>
+    <button class="but4">4</button>
+
+    <h1>A Mani kumar</h1>
+    <img src="../assets/my photos/IMG_4969.JPG "width=200 class="img1" />
+    <img src="../assets/my photos/IMG_5102.JPG"width=200  class="img2"/>
+    <img src="../assets/my photos/IMG_0856.JPG"width=200  class="img3"/>
+    <img src="../assets/my photos/DD9B4CC4-6879-4518-96C7-7557AF402098.JPG"width=200  class="img4"/>
+</body>
+</html>
